@@ -1,0 +1,238 @@
+.base {
+	border: 3px solid black;
+	width: 800px;
+	height: 500px;
+	background-color: lightblue;
+	position: relative;
+}
+
+.red_box {
+	background-color: red;
+	border: 3px solid black;
+	width: 200px;
+	height: 100px;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+
+.green_box {
+	background-color: green;
+	border: 3px solid black;
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	top: 25px;
+	left: 300px;
+}
+
+.blue_box {
+	background-color: blue;
+	border: 3px solid black;
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	left: 25px;
+	top: 175px;
+}
+
+.yellow_box {
+	background-color: yellow;
+	border: 3px solid black;
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 325px;
+	left: 300px;
+}
+
+/* ... */
+
+.blue_romb {
+	transform: rotate(45deg);
+	position: relative;
+	border-radius: 25px;
+	border: 1px solid blue;
+	width: 250px;
+	height: 250px;
+	left: 100px;
+	top: 100px;
+	background-color: blue;
+}
+.green_romb {
+	transform: rotate(45deg);
+	position: relative;
+	border-radius: 25px;
+	border: 1px solid green;
+	width: 200px;
+	height: 200px;
+	left: 450px;
+	top: -126px;
+	background-color: green;
+}
+.red_romb {
+	transform: rotate(45deg);
+	position: relative;
+	border-radius: 25px;
+	border: 1px solid red;
+	width: 175px;
+	height: 175px;
+	left: 725px;
+	top: -315px;
+	background-color: red;
+}
+
+
+.osnova {border: 3px solid black; width: 100px; height: 50px; position: relative;}
+.shtuchka_s_prava {position: absolute; right: -7px; height: 15px; top: 15px; border: 3px solid black;}
+.energy_red {border: 3px solid red; width: 25px; height: 44px; position: absolute; background-color: red;}
+
+.energy_gold {border: 3px solid gold; width: 50px; height: 44px; position: absolute; background-color: gold;}
+.energy_green {border: 3px solid green; width: 94px; height: 44px; position: absolute; background-color: green;}
+
+/* SUDOKU START */
+.base_two {
+	border: 2px solid silver;
+	position: relative;
+	width: 225px;
+	height: 225px;
+}
+* b {
+	margin: 5px;
+	font-size: 20px;
+}
+.one_one {position: absolute; border: 1px solid silver; width: 25px; height: 25px;}
+.one_two {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 25px;}
+.one_three {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 50px;}
+.one_four {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 75px;}
+.one_five {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 100px;}
+.one_six {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 125px;}
+.one_seven {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 150px;}
+.one_eight {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 175px;}
+.one_nine {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 200px;}
+
+.two_one {position: absolute; border: 1px solid silver; width: 25px; height: 25px; top: 25px;}
+.two_two {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 25px; top: 25px;}
+.two_three {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 50px; top: 25px;}
+.two_four {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 75px; top: 25px;}
+.two_five {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 100px; top: 25px;}
+.two_six {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 125px; top: 25px;}
+.two_seven {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 150px; top: 25px;}
+.two_eight {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 175px; top: 25px;}
+.two_nine {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 200px; top: 25px;}
+
+.three_one {position: absolute; border: 1px solid silver; width: 25px; height: 25px; top: 50px;}
+.three_two {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 25px; top: 50px;}
+.three_three {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 50px; top: 50px;}
+.three_four {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 75px; top: 50px;}
+.three_five {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 100px; top: 50px;}
+.three_six {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 125px; top: 50px;}
+.three_seven {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 150px; top: 50px;}
+.three_eight {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 175px; top: 50px;}
+.three_nine {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 200px; top: 50px;}
+
+.four_one {position: absolute; border: 1px solid silver; width: 25px; height: 25px; top: 75px;}
+.four_two {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 25px; top: 75px;}
+.four_three {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 50px; top: 75px;}
+.four_four {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 75px; top: 75px;}
+.four_five {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 100px; top: 75px;}
+.four_six {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 125px; top: 75px;}
+.four_seven {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 150px; top: 75px;}
+.four_eight {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 175px; top: 75px;}
+.four_nine {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 200px; top: 75px;}
+
+.five_one {position: absolute; border: 1px solid silver; width: 25px; height: 25px; top: 100px;}
+.five_two {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 25px; top: 100px;}
+.five_three {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 50px; top: 100px;}
+.five_four {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 75px; top: 100px;}
+.five_five {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 100px; top: 100px;}
+.five_six {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 125px; top: 100px;}
+.five_seven {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 150px; top: 100px;}
+.five_eight {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 175px; top: 100px;}
+.five_nine {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 200px; top: 100px;}
+
+.six_one {position: absolute; border: 1px solid silver; width: 25px; height: 25px; top: 125px;}
+.six_two {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 25px; top: 125px;}
+.six_three {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 50px; top: 125px;}
+.six_four {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 75px; top: 125px;}
+.six_five {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 100px; top: 125px;}
+.six_six {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 125px; top: 125px;}
+.six_seven {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 150px; top: 125px;}
+.six_eight {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 175px; top: 125px;}
+.six_nine {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 200px; top: 125px;}
+
+.seven_one {position: absolute; border: 1px solid silver; width: 25px; height: 25px; top: 150px;}
+.seven_two {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 25px; top: 150px;}
+.seven_three {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 50px; top: 150px;}
+.seven_four {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 75px; top: 150px;}
+.seven_five {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 100px; top: 150px;}
+.seven_six {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 125px; top: 150px;}
+.seven_seven {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 150px; top: 150px;}
+.seven_eight {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 175px; top: 150px;}
+.seven_nine {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 200px; top: 150px;}
+
+.eight_one {position: absolute; border: 1px solid silver; width: 25px; height: 25px; top: 175px;}
+.eight_two {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 25px; top: 175px;}
+.eight_three {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 50px; top: 175px;}
+.eight_four {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 75px; top: 175px;}
+.eight_five {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 100px; top: 175px;}
+.eight_six {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 125px; top: 175px;}
+.eight_seven {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 150px; top: 175px;}
+.eight_eight {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 175px; top: 175px;}
+.eight_nine {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 200px; top: 175px;}
+
+.nine_one {position: absolute; border: 1px solid silver; width: 25px; height: 25px; top: 200px;}
+.nine_two {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 25px; top: 200px;}
+.nine_three {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 50px; top: 200px;}
+.nine_four {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 75px; top: 200px;}
+.nine_five {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 100px; top: 200px;}
+.nine_six {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 125px; top: 200px;}
+.nine_seven {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 150px; top: 200px;}
+.nine_eight {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 175px; top: 200px;}
+.nine_nine {position: absolute; border: 1px solid silver; width: 25px; height: 25px; left: 200px; top: 200px;}
+/* SUDOKU END */
+
+.sky {
+	width: 1000px;
+	height: 700px;
+	position: relative;
+	background-image: url("https://app.schoology.com/system/files/attachments/page_embeds/m/2016-11/cloud_2_583b60df17e38.gif");
+}
+.grass {
+	position: absolute;
+	background-color: green;
+	width: 1000px;
+	height: 225px;
+	bottom: 0;
+}
+.sheep {
+	position: absolute;
+	bottom: 50px;
+	left: 200px;
+}
+.sheep img {
+	width: 150px;
+}
+.cow {
+	position: absolute;
+	bottom: 220px;
+	left: 450px;
+}
+.tree {
+	position: absolute;
+	bottom: 150px;
+	left: 700px;
+}
+.farmparty {
+	font-family: sans-serif;
+	color: red;
+	font-size: 45px;
+	position: absolute;
+	left: 400px;
+	top: 25px;
+}
+.sun {
+	position: absolute;
+	left: 800px;
+	top: 10px;
+}
